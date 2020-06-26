@@ -1,0 +1,17 @@
+[
+  {
+    "name": "default",
+    "type": "sqlite",
+    "database": "data/dev.db",
+    "logging": true,
+    "entities": [
+      "dist/db/models/*.js"
+    ],
+    "migrations": [
+      "dist/db/migrations/*.js"
+    ],
+    "cli": {
+      "migrationsDir": "./src/db/migrations"
+    }
+  }
+]
